@@ -1,3 +1,4 @@
+/* container que enbloba tudo do header */
 .appHeader{
 
     width: 800px;
@@ -11,12 +12,14 @@
     margin-top: 50px;
 }
 
+/* titulo do header */
 .headerTitle{
 
     text-align: center;
     font-family: Verdana, sans-serif;
 
 }
+
 
 .paragrafo{
 

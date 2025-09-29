@@ -1,3 +1,4 @@
+/* card principal que embloba tudo */
 .cardPrincipal{
 
     width: 800px;
@@ -9,6 +10,7 @@
     
 }
 
+/* numero da pergunta */
 .numeroPergunta{
 
     text-align:center;
@@ -17,6 +19,7 @@
 
 }
 
+/* div que engloba a pergunta */
 .questaoContainer{
 
     align-content: center;
@@ -24,6 +27,7 @@
 
 }
 
+/* a questao em si */
 .questao{
 
     width: 700px;
@@ -33,7 +37,7 @@
 
 }
 
-
+/* container dos botoes */
 .botoes{
 
     display: flex;
@@ -46,6 +50,7 @@
 
 }
 
+/* cada opcao de botao */
 .opcaoBotao{
 
     width: 650px;

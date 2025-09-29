@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 import React, { useState, useEffect } from 'react';
 
 // função do header
-function Header() {
+function Header( { currentQuestion }) {
 
   // cria uma variável 'segundos' e uma função pra mudar ela, começando em 0
   const [segundos, setSegundos] = useState(0);
@@ -55,7 +55,9 @@ function Header() {
       <h1 className={styles.headerTitle}>Quiz Interativo! 🧠</h1>
 
       {/* paragrafo normal com um aviso de questões */}
-      <h3 className={styles.paragrafo}>Questão 1 de 10.</h3>
+      
+                                   {/* tentei fazer essaparte mas deu tudo errado */}
+      <h3 className={styles.paragrafo}>Questão 1 de 10</h3>
 
       {/* aqui ele chama os segundos e minutos formatados */}
       <h2 className={styles.tempo}>Tempo: {minutosFormatados}:{segundosFormatados}</h2>
