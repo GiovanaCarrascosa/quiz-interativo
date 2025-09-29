@@ -2,7 +2,7 @@
 
     width: 800px;
     height: 180px;
-    background-color: rgb(255, 73, 110);
+    background-color: rgb(229, 47, 98);
     border-radius: 20px;
 
     justify-items: center;
@@ -14,7 +14,7 @@
 .headerTitle{
 
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, sans-serif;
 
 }
 
