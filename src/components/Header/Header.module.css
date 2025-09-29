@@ -1,11 +1,33 @@
-.app-header{
+.appHeader{
 
     width: 800px;
-    height: 80px;
-    background-color: crimson;
+    height: 180px;
+    background-color: rgb(255, 73, 110);
+    border-radius: 20px;
+
+    justify-items: center;
+    align-content: center;
+
+    margin-top: 50px;
 }
 
-.header-title{
+.headerTitle{
 
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.paragrafo{
+
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', sans-serif;
     
+}
+
+.tempo{
+
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+
 }
