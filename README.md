@@ -15,4 +15,4 @@ Bem-vindo ao Quiz Interativo, um projeto construído com React que testa seus co
 
 * **React:** Biblioteca JavaScript para construir a interface de usuário.
 * **CSS Modules:** Para modularizar e isolar o estilo de cada componente, evitando conflitos.
-* **JavaScript (ES6+):** Lógica principal do quiz.
+* **JavaScript:** Lógica principal do quiz.
